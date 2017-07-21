@@ -8,7 +8,7 @@ $(document).ready(function(){
     var name = $("input#name").text();
     var address = $("input#address").text();
 
-
+// buisness logic
     var myPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping1, inputtedTopping2);
 
     function Pizza(size, crust, topping1, topping2, price) {
@@ -78,7 +78,7 @@ $(document).ready(function(){
     var inputtedTopping1 = "";
     var inputtedTopping2 = "";
     var Price = 0;
-
+// end of buisness logic
 
 
     $("#pizzaPrice").text(myPizza.Price())
