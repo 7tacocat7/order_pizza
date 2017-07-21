@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("form#pizza-selection").submit(function(event) {
-    alert("hjgkj");
+    alert("Thank you for placing your order! Your payment due is listed at the bottom of the page.");
     var inputtedSize = $("select#pizzaSize").val();
     var inputtedCrust = $("select#crust").val();
     var inputtedTopping1 = $("select#topping1").val();

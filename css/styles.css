@@ -4,3 +4,7 @@ h1 {
   font-style: italic;
   font-family: sans-serif;
 }
+
+#payUp {
+  display: hide;
+}
