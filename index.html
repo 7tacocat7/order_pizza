@@ -8,9 +8,127 @@
     <title>Order Pizza</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1>Order your Pizza!</h1>
+    <div class="container">
+
+
+      <div class="jumbotron">
+          <h1><strong>Order Your pizza!</strong></h1>
+      </div>
     </div>
+    <div class="container">
+      <div class="well">
+        <form id="thisForm">
+          <!-- pizza size -->
+          <h4>What size pizza would you like?</h4>
+          <select class="form-control" id="question1">
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+          </select>
+          <!-- crust -->
+          <div class="well">
+            <h4>What kind of crust would you like to order?</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="poor" checked>
+                thin crust
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="average">
+                thick crust
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                flatbread crust
+              </label>
+            </div>
+          </div>
+          <!-- 1st topping -->
+          <div class="well">
+            <h3>What would you like your 1st topping to be?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="poor" checked>
+                cheese
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="average">
+                no cheese
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                vegan cheese
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                extra cheese
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                extra vegan cheese
+              </label>
+            </div>
+          </div>
+          <!-- 2nd topping -->
+          <div class="well">
+            <h4>What would you like your 2nd topping to be?</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="poor" checked>
+                pepperoni
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="average">
+                vegan pepperoni
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                extra pepperoni
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                extra vegan pepperoni
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="skill" value="above average">
+                none
+              </label>
+            </div>
+          </div>
+          <!-- Delivery option -->
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email">your address</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
   </body>
 </html>
