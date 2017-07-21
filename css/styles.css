@@ -28,6 +28,7 @@ body {
   background-color: #d277ff;
 }
 .jumbotron {
+  background-color: purple;
   background-image: url("img/pizza.png");
   text-align: center;
   font-family: sans-serif;
