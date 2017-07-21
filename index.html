@@ -28,104 +28,42 @@
           <!-- crust -->
           <div class="well">
             <h4>What kind of crust would you like to order?</h4>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="poor" checked>
-                thin crust
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="average">
-                thick crust
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                flatbread crust
-              </label>
-            </div>
+            <select class="form-control" id="crust">
+              <option>thin crust</option>
+              <option>thick crust</option>
+              <option>flatbread crust</option>
+            </select>
           </div>
           <!-- 1st topping -->
           <div class="well">
             <h3>What would you like your 1st topping to be?</h3>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="poor" checked>
-                cheese
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="average">
-                no cheese
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                vegan cheese
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                extra cheese
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                extra vegan cheese
-              </label>
-            </div>
+            <select class="form-control" id="topping1">
+              <option>cheese</option>
+              <option>no cheese</option>
+              <option>vegan cheese</option>
+              <option>extra cheese</option>
+              <option>extra vegan cheese</option>
+            </select>
           </div>
           <!-- 2nd topping -->
           <div class="well">
             <h4>What would you like your 2nd topping to be?</h4>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="poor" checked>
-                pepperoni
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="average">
-                vegan pepperoni
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                extra pepperoni
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                extra vegan pepperoni
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="skill" value="above average">
-                none
-              </label>
-            </div>
-          </div>
-          <!-- Delivery option -->
-          <div class="form-group">
-            <label for="name">Your name</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="email">your address</label>
-            <input id="email" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn">Submit</button>
+            <select class="form-control" id="topping2">
+              <option>pepperoni</option>
+              <option>vegan pepperoni</option>
+              <option>extra pepperoni</option>
+              <option>extra vegan pepperoni</option>
+              <option>none</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-warning btn-lg btn-block">place order!</button>
         </form>
+        <div class="well">
+          <div id ="pizzaPrice" >
+
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -1,12 +1,12 @@
 $(document).ready(function(){
   $("form#pizza-selection").submit(function(event) {
-
-    var inputtedSize = $("select#size").val();
+    alert("hjgkj");
+    var inputtedSize = $("select#pizzaSize").val();
     var inputtedCrust = $("select#crust").val();
-    var inputtedTopping1 = $("input#topping1").val();
+    var inputtedTopping1 = $("select#topping1").val();
     var inputtedTopping2 = $("select#topping2").val();
-
-
+    var name = $("input#name").text();
+    var address = $("input#address").text();
 
 
     var myPizza = new Pizza(inputtedSize, inputtedCrust, inputtedTopping1, inputtedTopping2);
@@ -68,7 +68,7 @@ $(document).ready(function(){
       return 0 + this.Size() + this.Crust() + this.Topping1() + this.Topping2();
     }
 
-    Ticket.prototype.receipt = function() {
+    Pizza.prototype.receipt = function() {
     return this.size + " " + this.crust + " " + this.topping1 + " " + this.topping2 + this.Price();
     }
 
@@ -80,7 +80,9 @@ $(document).ready(function(){
     var Price = 0;
 
 
-    $("#result").text(myPizza.Price())
+
+    $("#pizzaPrice").text(myPizza.Price())
   event.preventDefault();
+
   });
 });
