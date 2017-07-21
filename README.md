@@ -14,7 +14,7 @@ _Order-Pizza is a  webpage that allows a user to customize a pizza and order it 
 | Behavior      | Input         | Output        |
 | ------------- | ------------- | ------------- |
 |  assign numerical value to  selection option         |       option        |       1        |
-|     add numerical value of options          |    option           |               |
+|     add numerical value of options          |    option1 + option2         |     1+1 =2          |
 |               |               |               |
 |               |               |               |
 |               |               |               |
