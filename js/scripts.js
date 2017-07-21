@@ -28,8 +28,8 @@ $(document).ready(function(){
         return  13;
       } else  if(this.size === "large"){
         return  16;
+      }
     }
-}
 
     Pizza.prototype.Crust = function() {
       if(this.crust === "thin crust") {
