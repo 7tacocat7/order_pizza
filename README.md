@@ -16,7 +16,6 @@ _Order-Pizza is a  webpage that allows a user to customize a pizza and order it 
 | pizza price calculated by size input |       large        |       16        |
 | pizza price calculated by crust input|       thin crust        |        0       |
 | pizza price calculated by topping1 input|    cheese     |        1       |
-| pizza price calculated by topping1 input| vegan pepperoni|        2       |
 |   total pizza price calculated by  addition of input options  |    large + thin crust   |  16+0 =16 |
 
 
