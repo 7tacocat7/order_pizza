@@ -70,20 +70,20 @@ $(document).ready(function(){
     }
 
     Pizza.prototype.receipt = function() {
-    return this.size + " " + this.crust + " " + this.topping1 + " " + this.topping2 + this.Price();
-    }
+      return this.size + " " + this.crust + " " + this.topping1 + " " + this.topping2 + this.Price();
+      }
 
 
-    var inputtedSize = "";
-    var inputtedCrust = "";
-    var inputtedTopping1 = "";
-    var inputtedTopping2 = "";
-    var Price = 0;
-// end of buisness logic
+      var inputtedSize = "";
+      var inputtedCrust = "";
+      var inputtedTopping1 = "";
+      var inputtedTopping2 = "";
+      var Price = 0;
+  // end of buisness logic
 
 
-    $("#pizzaPrice").text(myPizza.Price())
-  event.preventDefault();
+      $("#pizzaPrice").text(myPizza.Price())
+    event.preventDefault();
 
   });
 });
